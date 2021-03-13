@@ -1,0 +1,257 @@
+{
+  "@context": {
+    "dbr": "http://dbpedia.org/resource/",
+    "ex": "https://example.org/",
+    "knows": "http://xmlns.com/foaf/0.1/knows",
+    "onCraft": "https://example.org/onCraft"
+  },
+  "@graph": [
+    {
+      "@id": "ex:Sergey_Ryzhikov",
+      "@type": "dbr:Astronaut",
+      "knows": [
+        {
+          "@id": "dbr:Kathleen_Rubins"
+        },
+        {
+          "@id": "dbr:Victor_J._Glover"
+        },
+        {
+          "@id": "dbr:Michael_S._Hopkins"
+        },
+        {
+          "@id": "ex:Sergey_Kud-Sverchkov"
+        },
+        {
+          "@id": "dbr:Soichi_Noguchi"
+        },
+        {
+          "@id": "dbr:Shannon_Walker"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    },
+    {
+      "@id": "dbr:Soichi_Noguchi",
+      "@type": [
+        "http://www.wikidata.org/entity/Q5",
+        "dbr:Agent",
+        "dbr:Person",
+        "dbr:Astronaut",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://www.wikidata.org/entity/Q11631",
+        "http://www.wikidata.org/entity/Q215627",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://www.wikidata.org/entity/Q24229398"
+      ],
+      "knows": [
+        {
+          "@id": "dbr:Kathleen_Rubins"
+        },
+        {
+          "@id": "ex:Sergey_Kud-Sverchkov"
+        },
+        {
+          "@id": "dbr:Victor_J._Glover"
+        },
+        {
+          "@id": "ex:Sergey_Ryzhikov"
+        },
+        {
+          "@id": "dbr:Michael_S._Hopkins"
+        },
+        {
+          "@id": "dbr:Shannon_Walker"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    },
+    {
+      "@id": "dbr:Kathleen_Rubins",
+      "@type": [
+        "http://www.wikidata.org/entity/Q11631",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://www.wikidata.org/entity/Q215627",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://www.wikidata.org/entity/Q24229398",
+        "http://www.wikidata.org/entity/Q5",
+        "dbr:Agent",
+        "dbr:Person",
+        "dbr:Astronaut"
+      ],
+      "knows": [
+        {
+          "@id": "dbr:Victor_J._Glover"
+        },
+        {
+          "@id": "ex:Sergey_Ryzhikov"
+        },
+        {
+          "@id": "dbr:Michael_S._Hopkins"
+        },
+        {
+          "@id": "dbr:Soichi_Noguchi"
+        },
+        {
+          "@id": "dbr:Shannon_Walker"
+        },
+        {
+          "@id": "ex:Sergey_Kud-Sverchkov"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    },
+    {
+      "@id": "dbr:Michael_S._Hopkins",
+      "@type": [
+        "http://www.wikidata.org/entity/Q24229398",
+        "http://www.wikidata.org/entity/Q5",
+        "dbr:Agent",
+        "dbr:Person",
+        "dbr:Astronaut",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://www.wikidata.org/entity/Q11631",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://www.wikidata.org/entity/Q215627"
+      ],
+      "knows": [
+        {
+          "@id": "dbr:Victor_J._Glover"
+        },
+        {
+          "@id": "ex:Sergey_Ryzhikov"
+        },
+        {
+          "@id": "dbr:Soichi_Noguchi"
+        },
+        {
+          "@id": "dbr:Shannon_Walker"
+        },
+        {
+          "@id": "dbr:Kathleen_Rubins"
+        },
+        {
+          "@id": "ex:Sergey_Kud-Sverchkov"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    },
+    {
+      "@id": "dbr:International_Space_Station",
+      "@type": [
+        "dbr:SpaceStation",
+        "http://www.wikidata.org/entity/Q25956",
+        "dbr:MeanOfTransportation"
+      ]
+    },
+    {
+      "@id": "dbr:Shannon_Walker",
+      "@type": [
+        "http://www.wikidata.org/entity/Q5",
+        "dbr:Agent",
+        "dbr:Person",
+        "dbr:Astronaut",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://www.wikidata.org/entity/Q11631",
+        "http://www.wikidata.org/entity/Q215627",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://www.wikidata.org/entity/Q24229398"
+      ],
+      "knows": [
+        {
+          "@id": "dbr:Kathleen_Rubins"
+        },
+        {
+          "@id": "ex:Sergey_Kud-Sverchkov"
+        },
+        {
+          "@id": "ex:Sergey_Ryzhikov"
+        },
+        {
+          "@id": "dbr:Michael_S._Hopkins"
+        },
+        {
+          "@id": "dbr:Victor_J._Glover"
+        },
+        {
+          "@id": "dbr:Soichi_Noguchi"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    },
+    {
+      "@id": "dbr:Victor_J._Glover",
+      "@type": [
+        "http://www.wikidata.org/entity/Q11631",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://www.wikidata.org/entity/Q215627",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://www.wikidata.org/entity/Q24229398",
+        "dbr:Person",
+        "http://www.wikidata.org/entity/Q5",
+        "dbr:Agent",
+        "dbr:Astronaut"
+      ],
+      "knows": [
+        {
+          "@id": "ex:Sergey_Kud-Sverchkov"
+        },
+        {
+          "@id": "dbr:Kathleen_Rubins"
+        },
+        {
+          "@id": "ex:Sergey_Ryzhikov"
+        },
+        {
+          "@id": "dbr:Michael_S._Hopkins"
+        },
+        {
+          "@id": "dbr:Soichi_Noguchi"
+        },
+        {
+          "@id": "dbr:Shannon_Walker"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    },
+    {
+      "@id": "ex:Sergey_Kud-Sverchkov",
+      "@type": "dbr:Astronaut",
+      "knows": [
+        {
+          "@id": "dbr:Shannon_Walker"
+        },
+        {
+          "@id": "dbr:Kathleen_Rubins"
+        },
+        {
+          "@id": "dbr:Victor_J._Glover"
+        },
+        {
+          "@id": "ex:Sergey_Ryzhikov"
+        },
+        {
+          "@id": "dbr:Michael_S._Hopkins"
+        },
+        {
+          "@id": "dbr:Soichi_Noguchi"
+        }
+      ],
+      "onCraft": {
+        "@id": "dbr:International_Space_Station"
+      }
+    }
+  ]
+}

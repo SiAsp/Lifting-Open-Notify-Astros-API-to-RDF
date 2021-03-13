@@ -1,0 +1,113 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ex: <https://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+dbr:Kathleen_Rubins a dbr:Agent,
+        dbr:Astronaut,
+        dbr:Person,
+        dul:Agent,
+        dul:NaturalPerson,
+        wd:Q11631,
+        wd:Q215627,
+        wd:Q24229398,
+        wd:Q5 ;
+    foaf:knows dbr:Michael_S._Hopkins,
+        dbr:Shannon_Walker,
+        dbr:Soichi_Noguchi,
+        dbr:Victor_J._Glover,
+        ex:Sergey_Kud-Sverchkov,
+        ex:Sergey_Ryzhikov ;
+    ex:onCraft dbr:International_Space_Station .
+
+dbr:Michael_S._Hopkins a dbr:Agent,
+        dbr:Astronaut,
+        dbr:Person,
+        dul:Agent,
+        dul:NaturalPerson,
+        wd:Q11631,
+        wd:Q215627,
+        wd:Q24229398,
+        wd:Q5 ;
+    foaf:knows dbr:Kathleen_Rubins,
+        dbr:Shannon_Walker,
+        dbr:Soichi_Noguchi,
+        dbr:Victor_J._Glover,
+        ex:Sergey_Kud-Sverchkov,
+        ex:Sergey_Ryzhikov ;
+    ex:onCraft dbr:International_Space_Station .
+
+dbr:Shannon_Walker a dbr:Agent,
+        dbr:Astronaut,
+        dbr:Person,
+        dul:Agent,
+        dul:NaturalPerson,
+        wd:Q11631,
+        wd:Q215627,
+        wd:Q24229398,
+        wd:Q5 ;
+    foaf:knows dbr:Kathleen_Rubins,
+        dbr:Michael_S._Hopkins,
+        dbr:Soichi_Noguchi,
+        dbr:Victor_J._Glover,
+        ex:Sergey_Kud-Sverchkov,
+        ex:Sergey_Ryzhikov ;
+    ex:onCraft dbr:International_Space_Station .
+
+dbr:Soichi_Noguchi a dbr:Agent,
+        dbr:Astronaut,
+        dbr:Person,
+        dul:Agent,
+        dul:NaturalPerson,
+        wd:Q11631,
+        wd:Q215627,
+        wd:Q24229398,
+        wd:Q5 ;
+    foaf:knows dbr:Kathleen_Rubins,
+        dbr:Michael_S._Hopkins,
+        dbr:Shannon_Walker,
+        dbr:Victor_J._Glover,
+        ex:Sergey_Kud-Sverchkov,
+        ex:Sergey_Ryzhikov ;
+    ex:onCraft dbr:International_Space_Station .
+
+dbr:Victor_J._Glover a dbr:Agent,
+        dbr:Astronaut,
+        dbr:Person,
+        dul:Agent,
+        dul:NaturalPerson,
+        wd:Q11631,
+        wd:Q215627,
+        wd:Q24229398,
+        wd:Q5 ;
+    foaf:knows dbr:Kathleen_Rubins,
+        dbr:Michael_S._Hopkins,
+        dbr:Shannon_Walker,
+        dbr:Soichi_Noguchi,
+        ex:Sergey_Kud-Sverchkov,
+        ex:Sergey_Ryzhikov ;
+    ex:onCraft dbr:International_Space_Station .
+
+ex:Sergey_Kud-Sverchkov a dbr:Astronaut ;
+    foaf:knows dbr:Kathleen_Rubins,
+        dbr:Michael_S._Hopkins,
+        dbr:Shannon_Walker,
+        dbr:Soichi_Noguchi,
+        dbr:Victor_J._Glover,
+        ex:Sergey_Ryzhikov ;
+    ex:onCraft dbr:International_Space_Station .
+
+ex:Sergey_Ryzhikov a dbr:Astronaut ;
+    foaf:knows dbr:Kathleen_Rubins,
+        dbr:Michael_S._Hopkins,
+        dbr:Shannon_Walker,
+        dbr:Soichi_Noguchi,
+        dbr:Victor_J._Glover,
+        ex:Sergey_Kud-Sverchkov ;
+    ex:onCraft dbr:International_Space_Station .
+
+dbr:International_Space_Station a dbr:MeanOfTransportation,
+        dbr:SpaceStation,
+        wd:Q25956 .
+
